@@ -1,0 +1,52 @@
+<%- include("layout/mainPageHeader.ejs") %>
+<main>
+    <div class="text-image">
+      <div class="content">
+        <div class="heading">
+          <h1 class="head">Welcome to EcoFasal 🌱</h1>
+          <p class="about">Be a part of the biggest farming Community</p>
+        </div>
+        <div class="container">
+          <form class="Sign" method="post" action="/profile">
+            
+            <div class="fname">
+              <label for="fname" class="input-label">First Name: </label>
+              <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            </div>
+            <div class="lname">
+              <label for="lname" class="input-label">Last Name: </label>
+              <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+            </div>
+            <div class="email">
+              <label for="email" class="input-label">Email: </label>
+              <input type="email" name="email" id="email" placeholder="email" required>
+            </div>
+            <div class="password">
+              <label for="password" class="input-label">Password: </label>
+              <input type="password" name="password" id="password" placeholder="Enter 8 digit password" required>
+            </div>
+            <div class="password-confirm">
+              <label for="PasswordConfirmation" class="input-label">Password Confirmation :</label>
+              <input type="password" id="PasswordConfirmation" name="password_confirmation" class="password-confirm" required>
+            </div>
+            <br>
+            <div class="checkbox">
+              <label for="Accept">
+                <input type="checkbox" id="Accept" name="accept">
+                <span class="text-grey">I want to receive emails about events, product updates and company announcements.</span>
+              </label>
+            </div>
+            <div class="terms">
+              <p>By creating an account, you agree to our <a href="#" class="term-underline">terms and conditions</a> and <a href="#" class="term-underline">privacy policy</a>.</p>
+            </div>
+            <div class="Sign-up">
+              <a><button class="Sign-up-btn"  type="submit">Create an account</button></a>
+              <p class="Already account">Already have an account? <a href="/login" class="term-sign">Log in</a>.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <img class="bg-image" loading="lazy" src="https://thumbs.dreamstime.com/b/sunset-clouds-over-green-agriculture-field-tomatoes-orange-94125000.jpg" width="50%" >
+    </div>
+  </main>
+  <%- include("layout/mainPageFooter.ejs") %>

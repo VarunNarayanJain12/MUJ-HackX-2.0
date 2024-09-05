@@ -1,0 +1,52 @@
+<%- include("layout/mainPageHeader.ejs") %>
+<style>
+    label{
+        margin-right: 5%;
+    }
+    input{
+        border: none;
+        border-radius: 5%;
+    }
+    #email{
+        margin-left: 5.5%    ;
+    }
+</style>
+<main>
+    <div class="text-image">
+        <img class="bg-image" loading="lazy" src="https://thumbs.dreamstime.com/b/sunset-clouds-over-green-agriculture-field-tomatoes-orange-94125000.jpg" width="50%"  style="position: relative;left:-5%">
+
+      <div class="content">
+        <div class="heading">
+          <h1 class="head">Welcome to EcoFasal 🌱</h1>
+          <p class="about">Be a part of the biggest farming Community</p>
+        </div>
+        <div class="container">
+          <form class="Sign" method="post" action="/profile">
+            <div class="fname">
+              <label for="fname" class="input-label">First Name: </label>
+              <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            </div>
+            <div class="lname">
+              <label for="lname" class="input-label">Last Name: </label>
+              <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+            </div>
+            <div class="email">
+              <label for="email" class="input-label">Email: </label>
+              <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="password">
+              <label for="password" class="input-label">Password: </label>
+              <input type="password" name="password" id="password" placeholder="Enter 8 digit password" required>
+            </div>
+            <br>
+            <div class="Sign-up">
+              <a><button class="Sign-up-btn" style="width: 15%;" type="submit">Log In</button></a>
+              <br>
+              <p class="Already account">Create a new account? <a href="/signin" class="term-sign">Sign In</a>.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <%- include("layout/mainPageFooter.ejs") %>

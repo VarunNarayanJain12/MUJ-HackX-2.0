@@ -1,0 +1,87 @@
+<%- include("layout/mainPageHeader.ejs") %>
+<section class="welcome-section" id="welcome">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 ">
+        <div class="welcome-text" style="margin-top: 5vh;">
+        <h1 class="welcome-title">WELCOME To The Farmers Community</h1>
+      </div>
+    </div>
+    <div class="col-md-4 offset-md-4"> 
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ce668228ada3782a9ca349c9a4f7affa5c2fafe03823cd592a044af2322b7472?apiKey=832172b304c64528ad9545030926edec&&apiKey=832172b304c64528ad9545030926edec" alt="Farmer in the field" class="farmer-image">
+     </div>
+  </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-3"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4c4e057c9aed3d1620431a38dc6c56dcecb3a4c66d3b8b34cb3e2ad40f66c7f1?apiKey=832172b304c64528ad9545030926edec&&apiKey=832172b304c64528ad9545030926edec" alt="Decorative cloud" class="cloud-image" style="height: 60vh; width:75vh;"></div>
+      <div class="col-md-3 offset-md-3"style="z-index: 2;">
+        <img  src="https://cdn.builder.io/api/v1/image/assets/TEMP/4c4e057c9aed3d1620431a38dc6c56dcecb3a4c66d3b8b34cb3e2ad40f66c7f1?apiKey=832172b304c64528ad9545030926edec&&apiKey=832172b304c64528ad9545030926edec" alt="Decorative cloud" class="cloud-image">
+      </div>
+    </div>
+</section>
+
+<section class="crop-analysis" id="cropAnalysis">
+<div class="crop-analysis-section">
+  <div class="plant-hand-bg">
+    <img class="plant-hand-image" src="https://static.vecteezy.com/system/resources/previews/025/466/599/original/hand-holding-seedlings-the-concept-of-planting-trees-to-add-oxygen-to-the-planet-3d-illustration-vector.jpg" alt="Plant Hand">
+  </div>
+  <div class="crop-analysis-content">
+    <h2 class="crop-analysis-title1">Get your</h2>
+    <h2 class="crop-analysis-title2">crop analysis</h2>
+    <p class="crop-analysis-text">
+      "Get insights based on recent weather conditions and soil type."
+    </p>
+    <form method="get" action="/cropAnalysis">
+        <button type="submit" class="find-out-btn">Find Out</button>
+  </form>
+    
+  </div>
+</div>
+</section>
+
+<section class="reel-section" id="reels">
+    <div class="reel-text">
+      <h2 class="reel-title">Enjoy reel based </h2>
+      <h2 class="reel-title2">Agro content</h2>
+      <p class="reel-subtitle">Learn new techniques & TECHNOLOGIES</p>
+      <!--<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIvPjxwYXRoIGZpbGw9IiM2NmQ4YjUiIGQ9Im0xNSAxMi4zM2wtNiA0LjMzVjh6Ii8+PC9zdmc+" alt="Play button" class="play-icon">-->
+      <form method="get" action="/reels">
+        <button type="submit" style="border: none;background-color: transparent;"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSIvPjxwYXRoIGZpbGw9IiM2NmQ4YjUiIGQ9Im0xNSAxMi4zM2wtNiA0LjMzVjh6Ii8+PC9zdmc+" alt="Submit" class="play-icon"></button>
+      </form>
+    </div>
+  <div class="reel-image-container">
+      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/drone-for-farm-monitoring-6790867-5600935.png?f=webp" alt="Drone for farm monitoring" class="drone-image">
+    </div>
+    </section>
+
+<section class="news-section" id="news">
+    
+  <img src="/images/mainPage/news.png" alt="Farmer reading news" class="news-image">
+
+  <div class="news-content">
+    <h2 class="news-title">Know Latest </h2>
+    <h2 class="news-title2">Schemes & Loans</h2>
+    <p class="news-subtitle">Recent govt Schemes & ways to access loans</p>
+    <!--<form method="get" action="news"><button class="more-info-btn">more info</button></form>-->
+    <form method="get" action="/news">
+      <input type="submit" class="more-info-btn" value="more info">
+    </form>
+  </div>
+</section>
+
+<section class="optimize-section" id="webinar">
+  <div class="optimize-content">
+    <h2 class="optimize-title">Connect with Experts:</h2>
+    <h2 class="optimize-title2"> Learn & Share</h2>
+    <p class="optimize-subtitle">webinars : tutorials</p>
+   <!---<button class="resolve-btn">RESOLVE</button>-->
+    <form method="get" action="/webinar">
+      <input type="submit" class="resolve-btn" value="KNOW MORE">
+    </form>
+  </div>
+  <div class="optimize-image-container">
+    <!-- <div class="optimize-bg"></div> -->
+    <img src="/images/mainPage/community.jpg" alt="Healthy crops" class="optimize-image">
+  </div>
+</section>
+
+<%- include("layout/mainPageFooter.ejs") %>

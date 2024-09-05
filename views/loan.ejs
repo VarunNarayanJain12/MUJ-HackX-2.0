@@ -1,0 +1,63 @@
+<%- include("layout/mainPageHeader.ejs") %>
+<style>
+  .content{
+    background-color: #CFE2D9;
+  }
+</style>
+<main class=".container-fluid">
+
+    <div class="content">
+      <div class="bg-rect-container">
+        <div class="bg-rect-small">
+            <h4><form action="/news" method="get"><button type="submit" >Schemes</button></form></h4>
+       
+        </div>
+        <div class="bg-rect-small-2">
+            <h4><form action="/news/loans" method="get"><button type="submit" >loans</button></form></h4>
+
+        </div>
+      </div>
+      
+      <div class="bg-rect">
+        <div class="Yojna" >
+          <div class="text-image">
+            <img loading="lazy" src="/images/loans/kcc.png" class="yojna-img" alt="KCC Image"/>
+            <div class="textbox">
+              <h2 class="textbox-h">Kisan Credit Card scheme</h2>
+              <p class="textbox-p">The Kisan Credit Card scheme is a credit scheme introduced in August 1998 by Indian public sector banks to issue kisan credit card to the farmers of India. This model scheme was prepared by the National Bank for Agriculture and Rural Development on the recommendations of the RBI...</p>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+          </div>
+          <div class="text-image">
+            <img loading="lazy" src="/images/loans/ATL.png" class="yojna-img" alt="Agriculture Term Loan img"/>
+            <div class="textbox">
+              <h2 class="textbox-h">Agriculture Term Loan</h2>
+              <p class="textbox-p">The term loan has a longer tenure than the crop loan. It's provided for larger agriculture-related expenditures like the purchase of machinery, pump-sets, upgrading the farm facilities, installation of solar power motors, etc... </p>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+          </div>
+          <div class="text-image">
+            <img loading="lazy" src="/images/loans/AGL.png" class="yojna-img" alt="Agriculture Gold Loans  Image"/>
+            <div class="textbox">
+              <h2 class="textbox-h">Agriculture Gold Loans </h2>
+              <p class="textbox-p">Gold loans are one of the most availed loans in India, as Indian families own considerable gold ornaments, compared to other assets. Agriculture gold loans work the same way as regular gold loans. The only difference is that it’s offered only to farmers...</p>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+          </div>
+        </div>
+        <div class="shorts">
+          <iframe width="350" height="500"
+            class="shorts1" 
+              src="https://www.youtube.com/embed/Mu3hgOO8BIo?autoplay=1&mute=1&loop=3"
+              alt="shorts-video">
+          </iframe>
+          <iframe width="350" height="500"
+            class="shorts2" 
+              src="https://www.youtube.com/embed/ 10N-q9PbN2k?autoplay=0&mute=1&loop=5"
+              alt="shorts-video">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    </main>
+    <%- include("layout/mainPageFooter.ejs") %>

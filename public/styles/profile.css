@@ -1,0 +1,281 @@
+/* General resets and settings */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Farmer Community styling */
+  /* .farmer-community {
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+  } */
+  
+  /* Header styling */
+  /* .header {
+    background-color: #98d0bf;
+    position: sticky;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .logo {
+    width: 298px;
+    max-width: 100%;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    font-family: 'Julius Sans One', sans-serif;
+    border-radius: 15px 15px 0 0;
+    background-color: #c9e7de;
+    padding: 25px 30px;
+    box-shadow: 0 10px 8px 0 #888888;
+  }
+  
+  .search-icon {
+    width: 76px;
+    max-width: 100%;
+  } */
+  
+  /* Head image styling */
+  .head-img {   
+    width: 100%;
+    height: 75%;
+    opacity: 60%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+  }
+  
+  /* Profile image styling */
+  .profile-img {
+    position: relative;
+    margin-top: -100px;
+    border-radius: 10%;
+    margin-left: 40px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* Section styling */
+  section {
+    display: flex;
+  }
+  
+  .creation-text {
+    font-size: larger;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: rgb(8, 71, 60);
+  }
+  
+  .yourInfo {
+    font-family: Koulen, sans-serif;
+    background-color: rgb(13, 79, 62);
+    color: rgb(161, 212, 200);
+    text-align: center;
+    width: 75%;
+    padding: .25rem;
+    border-radius: 15px;
+  }
+  
+  .yourInfo-parent {
+    display: flex;
+    justify-content: center;
+    background-color: #0B704A;
+  }
+  
+  .reelImg {
+    margin-left: 40px;
+    width: 340px;
+    height: 380px;
+    border-radius: 15%;
+  }
+  
+  /* Chart and other elements styling */
+  .likes, .comments, .saved, .settings, .save {
+    text-align: center;
+    font-family: Koulen, sans-serif;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: lighter;
+    color: #043715;
+    padding: .5rem;
+  }
+  
+  .card {
+    z-index: 2;
+    position: absolute;
+    top: 40%; 
+    margin-left: 60px;
+    width: 18rem;
+  }
+  
+  .chart div {
+    background-color: #B1E2CE;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+  
+  .likes i, .comments i, .save i, .settings i {
+    font-size: 30px;
+    position: relative;
+  }
+  
+  .likes i {
+    right: 3rem;
+  }
+  
+  .comments i {
+    right: 1rem;
+  }
+  
+  .save i {
+    right: 2.75rem;
+  }
+  
+  .settings i {
+    right: 1.5rem;
+  }
+  
+  .tab {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .creationTxt {
+    font-size: 110px;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  
+  .creationTxt h1 {
+    color: #0C5642;
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  .reelIMAGE {
+    position: relative;
+    height: 400px;
+    border-radius: 30px;
+    width: 250px; 
+    background-image: url(https://www.xylem.com/en-in/solutions/agriculture-irrigation/contentassets/agriculture.jpg);
+    background-size: cover;
+  }
+  
+  .reelFLEX {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .uploadTXT {
+    width: 250px; 
+    padding: 100px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border: solid;
+    border-width: thin;
+    border-color: rgb(143, 211, 195);
+    background-color: #1C9486;
+    border-radius: 30px;
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  .premiumTXT {
+    margin-left: 10px;
+    margin-top: 45px;
+    color: rgb(223, 244, 240);
+    background-color: rgb(3, 59, 3);
+    border: 1px solid;
+    border-radius: 8vh;
+    font-size: 60px;
+    font-family: 'Lilita One', sans-serif;
+    padding: 5vh;
+    font-weight: 200;
+  }
+  
+  .card-img-top {
+    border-radius: 20px;
+    height: 110%; /* Increased height by approximately 10% */
+  }
+  
+  .card-title {
+    font-family: 'Koulen', sans-serif;
+    color: #dbece7; /* Changed color */
+  }
+  
+  .yourCreations {
+    margin-left: 20vh;
+    margin-top: 100px;
+    position: relative;
+    bottom: 10vh;
+  }
+  
+  /* Footer styling */
+  /* .footer {
+    border-radius: 50px 50px 0 0;
+    background-color: #4bd3a9;
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.25);
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    width: 526px;
+    max-width: 100%;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    border-radius: 24px;
+    margin-right: 50px;
+    text-align: center;
+    color: #079d66;
+    font-weight: 900;
+    background-color: #c9e7de5e;
+  }
+  
+  .inner-foot {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .media {
+    padding: 15px;
+  }
+  
+  .inner-foot .media {
+    height: auto;
+    width: 50px;
+    font-size: 60px;
+  }
+  
+  .extra {
+    background-image: url(cloud_bg.png);
+    background-size: cover;
+  } */
+  
+  /* .fa-brands {
+    color: #023425;
+  } */
+  

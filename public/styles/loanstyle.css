@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    background-color: #83dfb4;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  /* .search-icon {
+    width: 76px;
+    max-width: 100%;
+  } */
+  
+  
+  .bg-rect-container {
+    display: flex;
+  }
+  
+  .bg-rect-small {
+    align-self: flex-start;
+    width: 140px;
+    height: 60px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #CFE2D9;
+    color: #0E654D;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  .bg-rect-small-2 {
+    align-self: flex-start;
+    width: 140px;
+    height: 60px;
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #588671;
+    color: #BFDFD6;
+    margin-left: 20px; 
+    border-color: #B1CABE;
+    border-width: thin;
+  }
+  
+  .bg-rect {
+    background-color: #588671;
+    padding: 25px;
+    border-radius: 0 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    box-shadow: 3px 2px 5px #193e38;
+  }
+  
+  .Yojna {
+    width: calc(100% - 400px);
+  }
+  
+  .text-image {
+    display: flex;
+    background-color: #E2F3EB;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .yojna-img {
+    object-fit: cover;
+    width: 245px;
+    height: auto;
+    flex-shrink: 0;
+  }
+  
+  .textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .textbox-h {
+    font-family: "Lilita One", sans-serif;
+    color: #05402e;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .textbox-p {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 500,
+      'GRAD' 0,
+      'opsz' 24;
+    align-self: flex-end;
+  }
+  
+  .shorts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 25px;
+  }
+  
+  .shorts1, .shorts2 {
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+  }
+  
+  .bg-rect-small h4 form button{
+    border: none;
+    background-color: transparent ;
+  }
+  .bg-rect-small-2 h4 form button{
+    border: none;
+    background-color: transparent ;
+  }

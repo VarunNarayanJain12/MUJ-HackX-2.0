@@ -1,0 +1,53 @@
+<%- include("layout/mainPageHeader.ejs") %>
+<style>
+    body{
+        background-image: url(/images/profile/cloud_bg.png);
+        background-size: cover;
+    }
+</style>
+</section>
+<section>
+    
+    <div class="card" style="width: 18rem; height: 100px; margin-top: 2%;">
+        <div class="tab">
+            <img src="https://img.freepik.com/free-photo/portrait-indian-people-celebrating-baisakhi-festival_23-2151216898.jpg" class="card-img-top" alt="...">
+                
+        </div>        
+                <div class="card-body">
+                    <div class="yourInfo-parent">
+                    <div class="yourInfo">
+                    <h2 class="card-title">
+                        <% if (locals.Fname && locals.Lname) { %>
+                         <%= Fname %>
+                         <%= Lname %>
+                        <% } else{%>
+                            Mr.ABC
+                        <% } %>
+                    </h2>
+                </div>
+        </div><br>
+          <prof>
+            <div class="container">
+            <chart class="chart row">
+                <div class="likes"><i class="fa-solid fa-heart"></i>LIKES</div><br>
+                <div class="comments"><i class="fa-solid fa-comments"></i>COMMENTS</div>
+                <div class="save"><i class="fa-solid fa-bookmark"></i>SAVED</div>
+                <div class="settings"><i class="fa-solid fa-gears"></i>SETTINGS</div>
+            </chart>
+            </div>
+        </prof>
+        </div>    
+      </div>
+    </create>
+    <div class="yourCreations">
+                    <div class="creationTxt"><h1><i class="fa-solid fa-star star"></i>Your Creations</h1></div>
+                <div class="reelFLEX">
+                            <div class="reelIMAGE"></div>
+                            <div class="uploadTXT">UPLOAD</div>
+                        </div>    
+                    <div class="premiumTXT"><i class="fa-solid fa-arrow-trend-up"></i>  BE A PREMIUM MEMBER</div>
+                </div>
+</section>
+</profile> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<%- include("layout/mainPageFooter.ejs") %>

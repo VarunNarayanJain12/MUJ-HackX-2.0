@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoFasal</title>
+  <link rel="icon" type="image/x-icon" href="/images/mainPage/3d-leaf.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Koulen&family=Lilita+One&display=swap">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/newstyle.css">
+  
+  <link rel="stylesheet" href="/styles/Signstyle.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+  <% if (locals.bool) { %>
+   <link rel="stylesheet" href="/styles/reels.css">
+  <% } %>
+  <% if (locals.loan) { %>
+   <link rel="stylesheet" href="/styles/loanstyle.css">
+  <% } %>
+  <% if (locals.profile) { %>
+    <link rel="stylesheet" href="/styles/profile.css">
+   <% } %>  
+  <link rel="stylesheet" href="/styles/mainPage.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/cropAnalysis.css">
+  <% if (locals.community) { %>
+   <link rel="stylesheet" href="/styles/community.css">
+  <% } %>
+  <% if (locals.mainPg) { %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Koulen&family=Lilita+One&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/mainpg.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <% } %>
+  <link rel="stylesheet" href="/styles/webinar.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/footer.css">
+  <link rel="stylesheet" href="/styles/pop_up.css">
+  
+  </head>
+  <body>
+    <style>
+
+    </style>
+    <section class="farmer-community">
+      <header class="header" >
+        <a href="/"> 
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/654e1f32926f109dfab1de61d927b13164fb4db4e0f50feb25fbecbf74d1f2a8?apiKey=832172b304c64528ad9545030926edec&&apiKey=832172b304c64528ad9545030926edec" alt="Farmer Community Logo" class="logo" style="height:15vh;width:25vh;">
+        </a>
+        <nav class="nav-menu" style="margin: 0;">
+          <button class="nav-item">
+            <a href="<%=sign%>news" class="nav-items">NEWS</a>
+          </button>
+          <button class="nav-item">
+            <a href="<%=sign%>reels" class="nav-items">REELS</a>
+          </button>
+          <button class="nav-item">
+            <a href="<%=sign%>cropAnalysis" class="nav-items">Analysis</a>
+          </button>
+          <button class="nav-item">
+            <a href="<%=sign%>webinar" class="nav-items">Webinar</a>
+          </button>
+        </nav>
+        <div class="dropdown" style="background-color:transparent; border:none">
+          <button class="btn btn-secondary dropdown-toggle" style="background-color:transparent; border:none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/cece1838a04ae1c58d38121f6852f004f6d2d5e1874bba6b61185c91386750cc?apiKey=832172b304c64528ad9545030926edec&&apiKey=832172b304c64528ad9545030926edec" alt="Search Icon" class="search-icon">
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/login">Log In</a></li>
+            <li><a class="dropdown-item" href="/signin">Sign In / Register</a></li>
+          </ul>
+        </div>
+        <!-- <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/cece1838a04ae1c58d38121f6852f004f6d2d5e1874bba6b61185c91386750cc?apiKey=832172b304c64528ad9545030926edec&&apiKey=832172b304c64528ad9545030926edec" alt="Search Icon" class="search-icon"> -->
+        <span class="material-symbols-outlined" style="margin-bottom: 4%;" >
+          menu
+          </span>
+      </header>
+  

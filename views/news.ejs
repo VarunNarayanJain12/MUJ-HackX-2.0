@@ -1,0 +1,63 @@
+<%- include("layout/mainPageHeader.ejs") %>
+<style>
+  .content{
+    background-color: #CFE2D9;
+  }
+</style>
+<main class=".container-fluid">
+
+  <div class="content">
+    <div class="bg-rect-container">
+      <div class="bg-rect-small">
+        <h4><form action="/news" method="get"><button type="submit" >Schemes</button></form></h4>
+      </div>
+      <div class="bg-rect-small-2">
+        <h4><form action="/news/loans" method="get"><button type="submit" >Loans</button></form></h4>
+      </div>
+    </div>
+      
+      <div class="bg-rect">
+        <div class="Yojna" >
+          <div class="text-image">
+            <img loading="lazy" src="/images/news/PMKISAN.png" class="yojna-img" alt="PM KISAN Yojna Image"/>
+            <div class="textbox">
+              <h2 class="textbox-h">PM KISAN Yojna</h2>
+              <p class="textbox-p">PM-KISAN is a central sector scheme launched on 24th February 2019 to supplement financial needs of land holding farmers, subject to exclusions. Under the scheme, financial benefit of Rs. 6000/- per year is transferred in three equal four-monthly installments into the bank accounts of farmers’ families across the country, through Direct Benefit Transfer (DBT) mode...</p>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+          </div><br>
+          <div class="text-image">
+            <img loading="lazy" src="/images/news/PMBHAY.png" class="yojna-img" alt="PMFBY Yojna Image"/>
+            <div class="textbox">
+              <h2 class="textbox-h">PM  Fasal Bima  Yojna</h2>
+              <p class="textbox-p">PMFBY was launched in 2016 in order to provide a simple and affordable crop insurance product to ensure comprehensive risk cover for crops to farmers against all non-preventable natural risks from pre-sowing to post-harvest and to provide adequate claim amount.. </p>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+          </div><br>
+          <div class="text-image">
+            <img loading="lazy" src="/images/news/AIF.png" class="yojna-img" alt="AIF Image"/>
+            <div class="textbox">
+              <h2 class="textbox-h">AI Fund</h2>
+              <p class="textbox-p">AIF was introduced with a vision to transform the agriculture infrastructure landscape of the country. The Agriculture Infrastructure Fund is a medium - long term debt financing facility for investment in viable projects for post- harvest management infrastructure and community farming assets through interest subvention and credit guarantee support..</p>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+          </div><br>
+        </div>
+        <div class="shorts">
+          <iframe width="350" height="500"
+            class="shorts1" 
+              src="https://www.youtube.com/embed/_32PcE3HIBo?autoplay=1&mute=1&loop=3"
+              alt="shorts-video">
+          </iframe>
+          <iframe width="350" height="500"
+            class="shorts2" 
+              src="https://www.youtube.com/embed/rXaR5Ft3pDg?autoplay=0&mute=1&loop=5"
+              alt="shorts-video">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    </main>
+    <%- include("layout/mainPageFooter.ejs") %>
+
+

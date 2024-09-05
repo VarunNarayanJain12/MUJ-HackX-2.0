@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    background-color: #ebf5f2;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .farmer-community
+  {
+      background-color: #fff;
+      display: flex;
+      border-radius: 20px;
+      flex-direction: column;
+  }
+  .header 
+  {
+      background-color: #98d0bf;
+      position: sticky;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .logo
+  {
+      width: 298px;
+      max-width: 100%;
+  }
+  .nav-menu 
+  {
+      display: flex;
+      gap: 25px;
+      margin-left: 300px;
+  }
+  .nav-item 
+  {
+      font-family: 'Julius Sans One', sans-serif;
+      color:rgb(6, 60, 42);
+      border-radius: 15px 15px 10px 10px;
+      background-color: #c9e7de;
+      padding: 20px 20px;
+      box-shadow: 0 5px 4px 0 #193e38;
+  }
+
+  .nav-item:hover{
+    background-color: #016547;
+    color:rgb(164, 236, 212);
+    text-decoration: none; 
+  }
+
+  .search-icon 
+  {
+      width: 76px;
+      max-width: 100%;
+ 
+  }
+  
+  .container {
+    align-items: center;
+    display: flexbox;
+    align-content: center;
+    padding: 20px;
+
+  }
+  
+  .head {
+    font-family: "Lilita One", sans-serif;
+    color:rgb(3, 51, 35);
+    font-size: 50px;
+  }
+  
+
+  .about {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+  }
+  
+  .heading {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  
+  .text-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 50px;
+    border-style:groove, #98d0bf;
+    background-color: #ebf5f2;
+    /* border-radius: 20px 0 0 20px; */
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .input-label {
+    font-size: 20px;
+  }
+  
+  .Sign-up-btn {
+    justify-content: center;
+    padding: 10px;
+    color: rgb(5, 61, 41);
+    font-family:Koulen, sans-serif ;
+    background-color: aquamarine;
+    border-radius: 30px;
+    border-color: aquamarine;
+  }
+
+  .Sign-up-btn:hover {
+    background-color:rgb(4, 54, 37);
+    color:aliceblue;
+  }
+  .bg-image {
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+  .nav-menu a{
+    text-decoration: none;
+  }
+  .text-image{
+    margin: 0;
+  }

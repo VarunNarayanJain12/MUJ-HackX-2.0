@@ -1,0 +1,190 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}    
+html,body{
+    height: 100%;
+    width: 100%
+}
+/* .farmer-community
+{
+    background-color: #fff;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.header 
+{
+    background-color: #98d0bf;
+    position: sticky;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    width: 298px;
+    max-width: 100%;
+}
+.nav-menu 
+{
+    display: flex;
+    gap: 20px;
+}
+.nav-item 
+{
+    font-family: 'Julius Sans One', sans-serif;
+    border-radius: 15px 15px 0 0;
+    background-color: #c9e7de;
+    padding: 25px 30px;
+    box-shadow: 0 10px 8px 0 #888888;
+} */
+.search-icon 
+{
+    width: 76px;
+    max-width: 100%;
+}
+.nav-menu a{
+    text-decoration: none;
+    border-radius: 24px;
+    margin-right: 60px;
+    text-align: center;
+    color: #589b00;
+    background-color:#c9e7de5e;
+}
+.question-text
+{   display: inline-block;
+    background-color:#6da292 ; 
+    margin-top: 20px;  
+}
+
+.quesTxt
+{
+    padding: 10px;
+    background-color: #8cbfb0;
+    color: azure;
+    font-size: 40px;
+    font-family: Koulen;
+
+}
+
+.ques1
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+}
+.container
+{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+
+.firstImg, .secondImg , .thirdImg{
+    margin-bottom: 35px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    border-radius: 24px;
+    margin-right: 50px;
+    text-align: center;
+    color: #589b00;
+    font-weight: 900;
+    background-color:#c9e7de5e;
+}
+body{
+    background-color: #EAF4F2;
+}
+
+.right
+{
+  margin-left: 190px;
+  margin-top: -90px;
+  background-color:#144d18;
+  width: 440px;
+  border-radius: 20px;
+}
+.reelSearch
+{
+    background-color:#075b1f;
+}
+.headerReel
+{
+    display:flex;
+}
+.reelsTxt
+{
+    
+    color:#D8E9E1;
+    padding: 10px;
+    font-size: xx-large;
+}
+.reelSymbols
+{ 
+    width:130px;
+    background-color: #467553;
+    border-radius: 10px;
+    padding:10px;
+    gap:11px;
+    margin-left: 270px;
+    padding-right: 0px;
+}
+/* .footer
+{
+    border-radius: 50px 50px 0 0;
+    background-color: #4bd3a9;
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.25);
+    padding: 60px;
+    text-align: center;
+}
+.footer-logo
+{
+    width: 526px;
+    max-width: 100%;
+} */
+.visually-hidden
+{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+/* 
+.nav-menu a{
+    text-decoration: none;
+    border-radius: 24px;
+    margin-right: 50px;
+    text-align: center;
+    color: #589b00;
+    font-weight: 900;
+    background-color:#c9e7de5e;
+} */
+
+/* .footer{
+    border-top-left-radius: 40px;
+}
+.inner-foot{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    /* justify-content: space-evenly; */
+/* } */
+/* .
+
+
+
+.fa-brands
+{
+    color: #072519;
+} */
